@@ -1,0 +1,21 @@
+
+
+
+
+
+na=notes -add [%t] (%r/%c): $
+
+nc=notes -clear
+
+nl=notes -lock $
+nu=notes -unlock $
+rc=reply -check $
+rt=reply -to $ $
+rl=reply -ls
+r3=reply -to 3 $
+hub=Inbox
+
+r0=reply -to 0 $
+r1=reply -to 1 $
+r2=reply -to 2 $
+nr=notes -rm $

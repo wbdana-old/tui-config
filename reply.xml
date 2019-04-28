@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REPLY>
+<reply_enabled value="true"/>
+<org.thoughtcrime.securesms id="0"/>
+
+<com.Slack id="1"/>
+<com.blackberry.hub id="2"/>
+
+<com.facebook.mlite id="3"/>
+</REPLY>
