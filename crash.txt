@@ -3,8 +3,8 @@
 java.lang.IllegalArgumentException: Comparison method violates its general contract!
 	at java.util.TimSort.mergeLo(TimSort.java:777)
 	at java.util.TimSort.mergeAt(TimSort.java:514)
-	at java.util.TimSort.mergeForceCollapse(TimSort.java:457)
-	at java.util.TimSort.sort(TimSort.java:254)
+	at java.util.TimSort.mergeCollapse(TimSort.java:439)
+	at java.util.TimSort.sort(TimSort.java:245)
 	at java.util.Arrays.sort(Arrays.java:1432)
 	at it.andreuzzi.comparestring2.CompareObjects.a(Unknown Source:63)
 	at it.andreuzzi.comparestring2.CompareObjects.a(Unknown Source:6)

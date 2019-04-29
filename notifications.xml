@@ -14,4 +14,9 @@
 <com.facebook.mlite enabled="true"/>
 <org.blokada.alarm enabled="false"/>
 <filter id="1" value="blokada.alarm"/>
+<net.dinglisch.android.taskerm enabled="false"/>
+
+<com.google.android.talk enabled="true"/>
+<com.blackberry.hub enabled="true"/>
+<com.haptic.chesstime enabled="true"/>
 </NOTIFICATIONS>

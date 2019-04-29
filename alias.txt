@@ -10,8 +10,6 @@ nc=notes -clear
 nl=notes -lock $
 nu=notes -unlock $
 rc=reply -check $
-rt=reply -to $ $
-rl=reply -ls
 r3=reply -to 3 $
 hub=Inbox
 
@@ -19,3 +17,34 @@ r0=reply -to 0 $
 r1=reply -to 1 $
 r2=reply -to 2 $
 nr=notes -rm $
+tm=Termux
+ct=Chess Time
+
+r=Sync Pro
+pc=Power Center
+
+s=Signal
+sl=Slack
+l=Lite
+
+c=Calendar
+rc0=reply -check 0
+rc1=reply -check 1
+
+rc2=reply -check 2
+rc3=reply -check 3
+r4=reply -to 4 $
+rc4=reply -check 4
+
+ri=reply -to 2 $
+
+rh=reply -to 4 $
+
+rsl=reply -to 1 $
+rl=reply -to 3 $
+rs=reply -to 0 $
+rcs=reply -check 0
+rcsl=reply -check 1
+rci=reply -check 2
+rcl=reply -check 3
+rch=reply -check 4

@@ -20,7 +20,7 @@
 <battery_low value="15"/>
 <device_format value="%d: %u"/>
 <ram_format value="Available RAM: %avgb GB of %totgb GB (%av%%)"/>
-<battery_format value="%(Charging: /)%v%"/>
+<battery_format value="%(Charging/Discharging): %v%"/>
 <storage_format value="Internal Storage: %iavgb GB / %itotgb GB (%iav%%)"/>
 <network_info_format value="%(WiFi - %wn/%[Mobile Data: %d3/No Internet access])"/>
 <input_format value="[%t] %p %i"/>
@@ -61,12 +61,12 @@
 <tui_notification_time_color value="#03A9F4"/>
 <tui_notification_input_color value="#ff00ff00"/>
 <weather_key value="16dda8d7c0c6aefd0931c6a6aa951665"/>
-<weather_temperature_measure value="metric"/>
-<weather_location value="5128638"/>
-<weather_format value="Weather: %main, Temp: %temp$(*1.8+32), Wind: %speed knots at %deg degrees"/>
+<weather_temperature_measure value="imperial"/>
+<weather_location value="6941775"/>
+<weather_format value="Weather: %main, Temp: %temp, Wind: %speed$(/1.151) knots at %deg degrees"/>
 <clear_on_lock value="false"/>
 <unlock_counter_format value="Last unlocks:%n%t1(No. %i : %w)3"/>
-<unlock_time_divider value="%n"/>
+<unlock_time_divider value="|"/>
 <unlock_time_order value="1"/>
 <unlock_counter_cycle_start value="6.00"/>
 <not_available_text value="n/a"/>
